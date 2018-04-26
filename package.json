@@ -5,15 +5,19 @@
   "author": "ligongyi",
   "main": "fis-conf.js",
   "dependencies": {
+    "axios": "^0.18.0",
     "vue": "^2.5.16",
-    "axios": "^0.18.0"
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
-    "fis-parser-babel-6.x": "^6.24.1",
-    "fis-parser-less": "^0.1.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-loose": "^8.0.0",
     "fis3-hook-commonjs": "^0.1.22",
     "fis3-hook-node_modules": "^2.3.0",
+    "fis3-parser-less-2.x": "^0.1.4",
     "fis3-parser-vue-component": "^5.5.1",
+    "fis3-parser-translate-es3ify": "^0.0.3",
     "fis3-postpackager-loader": "^2.1.10",
     "fis3-postprocessor-autoprefixer": "^1.0.1"
   },
